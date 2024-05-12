@@ -1,0 +1,12 @@
+**Always use command prompt**
+
+1. Install 'pip install virtualenv' - package that need to make virtual environment
+2. create virtual environment using 'python -m virtualenv env'
+3. Navigate into the scripts folder inside the env folder.
+4. Activate env by using 'activate' command
+5. Go back to the previous location
+6. Use 'pip list' command to check installed libraries
+7. Also use 'pip install numpy pandas matplotlib jupyter' to install other necessary libraries
+8. If we want to make an txt file that contains details about installed libraries, can use 'pip freeze > requirement.txt'
+9. Using 'pip install -r requirement.txt' command, we can install all libraries directly with particular version.
+10. To start jupyter notebook, type 'jupyter notebook' command
